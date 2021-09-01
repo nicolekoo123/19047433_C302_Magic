@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         colour = new ArrayList<String>();
         ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, colour);
         listView.setAdapter(adapter);
-
+ 
         RequestParams params = new RequestParams();
         params.add("id", id);
         params.add("apikey", apikey);

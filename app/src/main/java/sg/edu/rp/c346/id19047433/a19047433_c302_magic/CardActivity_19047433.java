@@ -80,6 +80,7 @@ public class CardActivity_19047433 extends AppCompatActivity {
         });
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 

@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.19047433_C302_Magic">
-        <activity android:name=".CreateCardActivity_19047433"></activity>
+        <activity android:name=".BuyActivity"/>
+        <activity android:name=".CreateCardActivity_19047433"/>
         <activity android:name=".CardActivity_19047433" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">

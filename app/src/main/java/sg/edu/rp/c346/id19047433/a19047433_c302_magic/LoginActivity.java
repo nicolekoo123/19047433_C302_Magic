@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
                     if(response.getBoolean("authenticated")){
                         Toast.makeText(LoginActivity.this, "response.getBoolean(authenticated)", Toast.LENGTH_SHORT).show();
                         Toast.makeText(LoginActivity.this, "login", Toast.LENGTH_SHORT).show();
-                        Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                        Intent i = new Intent(LoginActivity.this, BuyActivity.class);
                         String id = response.getString("id");
                         String apikey = response.getString("apikey");
                         String role = response.getString("role");
@@ -80,6 +80,7 @@ public class LoginActivity extends AppCompatActivity {
                         editor.putString("loginID", id);
                         editor.putString("apiKey", apikey);
                         editor.putString("role", role);
+                        System.out.println(id);
                         editor.commit();
                         startActivity(i);
                     }else{

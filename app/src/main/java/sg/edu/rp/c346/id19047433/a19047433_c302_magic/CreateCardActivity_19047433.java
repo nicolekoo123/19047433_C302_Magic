@@ -100,8 +100,6 @@ public class CreateCardActivity_19047433 extends AppCompatActivity {
                                     Intent intent = new Intent(CreateCardActivity_19047433.this, MainActivity.class);
                                     startActivity(intent);
                                     Toast.makeText(CreateCardActivity_19047433.this,"Card created successfully.", Toast.LENGTH_SHORT).show();
-                                } else {
-                                    Toast.makeText(CreateCardActivity_19047433.this,"Card created successfully.", Toast.LENGTH_SHORT).show();
                                 }
 
                             } catch (Exception e) {
@@ -128,7 +126,7 @@ public class CreateCardActivity_19047433 extends AppCompatActivity {
         return true;
     }
 
-    @Override
+    @Override 
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
